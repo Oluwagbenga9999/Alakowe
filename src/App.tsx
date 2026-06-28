@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import HowItWorks from './components/HowItworks'
-import TopicPage from './components/HowItworks/TopicPage'
+import HowItWorks from './components/howitworks'
+import TopicPage from './components/howitworks/TopicPage'
 
 function App() {
   return (

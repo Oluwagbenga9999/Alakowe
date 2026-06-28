@@ -1,14 +1,15 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { topicContent } from "./TopicContent";
+import type { TopicContent } from "./types";
 import FAQ from "./FAQ";
 
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>();
-  const topic = topicContent.find((t) => t.id === topicId);
+  const topic = topicContent.find((t: TopicContent) => t.id === topicId);
 
   if (!topic || !topic.sections) return <Navigate to="/" replace />;
 
-  const totalArticles = topic.sections.reduce(
+  const totalArticles = topic.sections.reduce<number>(
     (sum, s) => sum + s.faqs.length,
     0
   );
