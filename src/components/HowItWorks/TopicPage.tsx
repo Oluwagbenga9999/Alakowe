@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from "react-router-dom";
-import { topicContent } from "./Topiccontent";
+import { topicContent } from "./TopicContent";
 import FAQ from "./FAQ";
 
 export default function TopicPage() {
