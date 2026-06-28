@@ -2,8 +2,7 @@ export interface Topic {
   id: string;
   icon: string;
   title: string;
-  intro: string;
-  sections: SubSection[];
+  desc: string;
   featured?: boolean;
 }
 
