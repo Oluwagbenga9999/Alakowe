@@ -50,7 +50,7 @@ export default function TopicPage() {
 
       {/* Sections */}
       <div className="space-y-8 mb-8">
-        {topic.sections.map((section) => (
+        {topic.sections.map((section: { heading: string; faqs: { q: string; a: string }[] }) => (
           <div key={section.heading}>
             {/* Sub-section heading */}
             <div className="flex items-center gap-3 mb-3">
@@ -64,7 +64,7 @@ export default function TopicPage() {
             </div>
 
             {/* FAQs under this sub-section */}
-            {section.faqs.map((faq, i) => (
+            {section.faqs.map((faq: { q: string; a: string }, i: number) => (
               <FAQ key={i} question={faq.q} answer={faq.a} />
             ))}
           </div>
