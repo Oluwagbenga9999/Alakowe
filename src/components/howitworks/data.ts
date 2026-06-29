@@ -13,11 +13,11 @@ export const topics: Topic[] = [
     icon: "ti-tag",
     title: "Selling on Alakowe",
     desc: "Listing Your Book, Drop-off & Pickup, Payment & Earnings, Managing Your Listings.",
-    featured: true,
+    // featured: true,
   },
   {
     id: "bookstore",
-    icon: "ti-store",
+    icon: "ti-book",
     title: "Your Bookstore",
     desc: "Your personal space where all your listed books live. Free and no setup required.",
   },

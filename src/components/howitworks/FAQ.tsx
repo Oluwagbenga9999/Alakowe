@@ -10,12 +10,12 @@ export default function FAQ({ question, answer }: FAQProps) {
 
   return (
     <div
-      className={`border rounded-xl mb-2 overflow-hidden transition-colors ${
+      className={`border overflow-hidden transition-colors ${
         open ? "border-purple-200" : "border-gray-200"
       }`}
     >
       <button
-        className="w-full flex justify-between items-center px-4 py-3 text-sm font-medium text-gray-900 text-left hover:bg-gray-50 transition-colors gap-2 bg-white"
+        className="w-full flex justify-between items-center px-4 py-3 text-sm font-medium text-gray-100 text-left hover:bg-slate-800 transition-colors gap-2 bg-slate-900"
         onClick={() => setOpen((prev) => !prev)}
         aria-expanded={open}
       >

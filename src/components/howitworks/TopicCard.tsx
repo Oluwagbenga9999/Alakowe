@@ -9,16 +9,16 @@ export default function TopicCard({ id, icon, title, desc, featured }: TopicCard
   return (
     <Link
       to={`/how-it-works/${id}`}
-      className={`text-left bg-white rounded-2xl p-6 transition-all hover:shadow-md hover:border-purple-300 w-full h-full flex flex-col gap-3 no-underline ${
-        featured ? "border-2 border-purple-600 shadow-sm" : "border border-gray-200"
+      className={`text-left bg-slate-900 rounded-2xl p-6 hover:-translate-y-1 hover:shadow-lg hover:border-indigo-200 hover:bg-slate-800 w-full h-full flex flex-col gap-3 no-underline ${
+        featured ? "border-2 bg-indigo-100 shadow-sm" : "border border-gray-200"
       }`}
     >
-      <div className="w-11 h-11 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0">
-        <i className={`ti ${icon} text-purple-700 text-xl`} aria-hidden="true" />
+      <div className="w-11 h-11 rounded-full bg-indigo-500 flex items-center justify-center flex-shrink-0">
+        <i className={`ti ${icon} text-indigo-100 text-xl`} aria-hidden="true" />
       </div>
       <div>
-        <p className="text-sm font-semibold text-gray-900 mb-1.5 leading-snug">{title}</p>
-        <p className="text-[13px] text-gray-500 leading-relaxed">{desc}</p>
+        <p className="text-sm font-semibold text-gray-100 mb-1.5 leading-snug">{title}</p>
+        <p className="text-[13px] text-gray-100 leading-relaxed">{desc}</p>
       </div>
     </Link>
   );
