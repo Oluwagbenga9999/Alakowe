@@ -8,7 +8,7 @@ interface FAQListProps {
 
 export default function FAQList({ faqs, search }: FAQListProps) {
   return (
-    <div id="faq-section" className="px-16 md:px-4">
+    <div id="faq-section" className="px-4 md:px-4">
       <p className="text-[11px] tracking-widest uppercase text-slate-900 font-medium mb-3">
         {search ? `Results for "${search}"` : "Most viewed"}
       </p>
