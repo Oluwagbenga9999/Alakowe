@@ -23,7 +23,7 @@ export default function HowItWorks() {
 
       {/* Contact bar */}
       <div className="mt-6 bg-slate-900 border border-gray-200 rounded-xl px-5 py-4 mx-4 md:mx-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        <span className="text-sm text-gray-500 flex items-center gap-2">
+        <span className="text-sm text-gray-200 flex items-center gap-2">
           <i className="ti ti-mail text-indigo-600 text-base" aria-hidden="true" />
           Still have questions? We&apos;re always here to help.
         </span>
