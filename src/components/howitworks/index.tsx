@@ -16,10 +16,10 @@ export default function HowItWorks() {
   return (
     <section className="w-full py-10 font-sans">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+      <div className="bg-white h-full rounded-2xl shadow-sm border border-slate-100 p-6 transition-all duration-300 hover:shadow-md hover:-translate-y-1">
          <HeyReader />
        </div>
-       <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+       <div className="bg-white h-full rounded-2xl shadow-sm border border-slate-100 p-6 transition-all duration-300 hover:shadow-md hover:-translate-y-1">
          <OurPromise />
        </div>
       </div>
