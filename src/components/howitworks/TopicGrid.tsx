@@ -7,7 +7,7 @@ interface TopicGridProps {
 
 export default function TopicGrid({ topics }: TopicGridProps) {
   return (
-    <div className="mb-6">
+    <div className="mb-6 px-16 md:px-4">
       <p className="text-[11px] tracking-widest uppercase text-gray-400 font-medium mb-3">
         Browse by topic
       </p>

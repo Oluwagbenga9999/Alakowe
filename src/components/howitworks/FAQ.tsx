@@ -15,7 +15,7 @@ export default function FAQ({ question, answer }: FAQProps) {
       }`}
     >
       <button
-        className="w-full flex justify-between items-center px-4 py-3 text-sm font-medium text-gray-100 text-left hover:bg-slate-800 transition-colors gap-2 bg-slate-900"
+        className="w-full flex justify-between items-center px-4 py-3 text-sm font-medium text-gray-800 text-left hover:bg-slate-200 transition-colors gap-2 bg-slate-100"
         onClick={() => setOpen((prev) => !prev)}
         aria-expanded={open}
       >

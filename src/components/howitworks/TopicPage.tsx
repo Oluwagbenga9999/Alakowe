@@ -29,7 +29,7 @@ export default function TopicPage() {
 
       {/* Topic hero */}
       <div className="bg-slate-900 rounded-2xl px-8 py-12 mb-8">
-        <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center mb-4 shadow-sm">
+        <div className="w-14 h-14 rounded-full bg-indigo-500 flex items-center justify-center mb-4 shadow-sm">
           <i className={`ti ${topic.icon} text-indigo-100 text-2xl`} aria-hidden="true" />
         </div>
         <p className="text-[11px] tracking-widest uppercase text-indigo-100 font-medium mb-2">
@@ -74,7 +74,7 @@ export default function TopicPage() {
 
       {/* Contact bar */}
       <div className="mt-8 bg-slate-900 border border-gray-200 rounded-xl px-5 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        <span className="text-sm text-gray-500 flex items-center gap-2">
+        <span className="text-sm text-gray-300 flex items-center gap-2">
           <i className="ti ti-mail text-indigo-600 text-base" aria-hidden="true" />
           Still have questions? We&apos;re always here to help.
         </span>
